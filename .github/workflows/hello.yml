@@ -7,7 +7,7 @@ on:
 
 jobs:
   say-hello:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - name: In lời chào
         run: echo "Xin chào từ Github Actions"
