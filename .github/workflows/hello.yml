@@ -1,0 +1,13 @@
+name: Hello Actions
+
+on:
+  push: 
+    branches:
+      - main
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-lates
+    steps:
+      - name: In lời chào
+        run: echo "Xin chào từ Github Actions"
